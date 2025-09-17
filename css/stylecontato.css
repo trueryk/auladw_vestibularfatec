@@ -145,12 +145,12 @@ main p {
     margin-top: 2vh;
     margin-left: 3.5vw;
     font-family: "Jost", sans-serif;
-    color: #be2633;
+    color: #121212;
+    width: 90%;
 }
 
-main .bolder {
-    color: #121212;
-    font-weight: bold;
+strong {
+    color: #be2633;
 }
 
 .content {

@@ -123,6 +123,63 @@ main {
     height: fit-content;
 }
 
+main ul li {
+    list-style: none;
+}
+
+main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.card_calendar {
+    box-shadow: 0px 1px 10px #ABABAB;
+    width: 75%;
+}
+
+.card_calendar #title_calendar {
+    padding: 2vh 0 2vh 4vh;
+    color: #EEEEEE;
+    background-color: #be2633;
+}
+
+.card_calendar #title_calendar h4 {
+    background-color: #EEEEEE;
+    padding: 1vh;
+    width: fit-content;
+    color: #be2633;
+    font-weight: 500;
+}
+
+.date_info {
+    border-top: #dee2e6 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 0 2vh 2vw;
+    height: 15vh;
+}
+
+.date_info p {
+    padding-right: 2vw;
+    text-align: justify;
+}
+
+#calendar_content ul>li:last-child {
+    border-bottom: #dee2e6 1px solid;
+}
+
+#calendar_content ul>li:nth-child(2n) .date_info {
+    background-color: #f2f2f2;
+}
+
+strong {
+    color: #be2633;
+}
+
 /* Rodapé */
 
 footer {
