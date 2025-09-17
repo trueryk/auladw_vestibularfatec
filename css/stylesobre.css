@@ -123,6 +123,22 @@ main {
     height: fit-content;
 }
 
+main h1 {
+    font-family: "Jost", sans-serif;
+    color: #be2633;
+    font-weight: 500;
+    margin-left: 3vw;
+    font-size: 6vh;
+}
+
+main h4 {
+    font-family: "Jost", sans-serif;
+    color: #be2633;
+    font-weight: 500;
+    margin-left: 3vw;
+    font-size: 4vh;
+}
+
 /* Rodapé */
 
 footer {
