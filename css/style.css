@@ -199,6 +199,7 @@ a {
 .card_calendar {
     box-shadow: 0px 1px 10px #ABABAB;
     width: 75%;
+    margin-bottom: 5vh;
 }
 
 .card_calendar #title_calendar {
@@ -247,9 +248,23 @@ a {
     }
 }
 
+#taxa {
+    padding: 3vh;
+    width: fit-content;
+    margin: 5vh 2vw;
+    background-color: #be2633;
+    color: white;
+    strong {
+        color: #EEEEEE;
+    }
+}
+
+
 strong {
     color: #be2633;
 }
+
+
 
 /* Rodapé */
 

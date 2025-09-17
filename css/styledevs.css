@@ -120,8 +120,65 @@ header h1 {
 /* Main */
 
 main {
+    display: flex;
+    justify-content: center;
     height: fit-content;
 }
+
+.content {
+    margin: 5vh 0 6vh;
+}
+
+.content #title_devs {
+    display: flex;
+    justify-content: center;
+}
+
+#title_devs h1 {
+    width: fit-content;
+    background-color: #be2633;
+    color: #EEEEEE;
+    padding: 1vh;
+}
+
+.content {
+    width: 70%;
+}
+
+.content .container {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .img_dev img {
+    border: #be2633 2px solid;
+    border-radius: 100%;
+}
+
+.container .desc {
+    margin-left: 3vw;
+
+    h4 {
+        font-size: 15pt;
+        color: #be2633;
+        margin-bottom: 2vh;
+    }
+
+    p {
+        padding: 2vh 2vw;
+        color: #EEEEEE;
+        background-color: #be2633;
+        width: 50%;
+    }
+}
+
+.redes a i {
+    margin-left: 13vw;
+    font-size: 30pt;
+    color: #121212;
+}
+
 
 /* Rodapé */
 
