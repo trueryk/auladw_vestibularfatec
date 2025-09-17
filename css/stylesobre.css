@@ -174,7 +174,7 @@ main h4 {
 
 .card #card_content #text_main {
     margin-top: 5vh;
-    width: 55%;
+    width: 50%;
 }
 
 .card #card_content p {
@@ -183,7 +183,12 @@ main h4 {
 }
 
 .card #card_content #image_main {
+    width: 50%;
     margin: 6vh 2vw;
+}
+
+.card #card_content #image_main img {
+    width: 100%;
 }
 
 .card #card_content #image_main h1 {
@@ -193,7 +198,6 @@ main h4 {
     font-weight: 500;
     color: #121212;
     text-decoration: underline #121212;
-    /* text-decoration-line: underline #be2633; */
     text-align: start;
 }
 

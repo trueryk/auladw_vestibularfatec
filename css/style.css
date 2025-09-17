@@ -135,6 +135,67 @@ main .content {
     height: fit-content;
 }
 
+.card {
+    margin: 5vh 0;
+    padding-bottom: 5vh;
+    box-shadow: 0px 1px 10px #ABABAB;
+    width: 75%;
+}
+
+.card #title_card {
+    padding: 2vh 0 2vh 4vh;
+    margin-bottom: 5vh;
+    color: #EEEEEE;
+    background-color: #be2633;
+}
+
+.fast_acess ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2vh 2vw;
+}
+
+.card .fast_acess ul li {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.card .fast_acess .card_fa {
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1vw;
+    border: #ABABAB solid 1px;
+    border-radius: 15%;
+    height: 20vh;
+    width: 20vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card_fa i {
+    height: 50%;
+    color: #be2633;
+    padding-top: 2vh;
+    font-size: 25pt;
+}
+
+.card_fa p {
+    font-size: 10pt;
+    color: #be2633;
+}
+
+.image_main img{
+    width: 100%;
+    margin: 2vh 0 7vh;
+}
+
 .card_calendar {
     box-shadow: 0px 1px 10px #ABABAB;
     width: 75%;
@@ -174,6 +235,16 @@ main .content {
 
 #calendar_content ul>li:nth-child(2n) .date_info {
     background-color: #f2f2f2;
+}
+
+.card_fa:hover {
+    background-color: #be2633;
+    p {
+        color: #EEEEEE;
+    }
+    i {
+        color: #EEEEEE;
+    }
 }
 
 strong {
