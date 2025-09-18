@@ -152,6 +152,7 @@ main {
 }
 
 .container .img_dev img {
+    width: 25vh;
     border: #be2633 2px solid;
     border-radius: 100%;
 }
